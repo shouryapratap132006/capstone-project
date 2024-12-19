@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ad7c0032;
+    opacity: 84%;
+    border-radius: 16px;
+    padding: 0 1em;
+    box-sizing: border-box;
+    width: 80vw;
+    margin: 20px auto;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.4);
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.5vw;
+    margin: 0 2vw;
+    font-family: "Newsreader";
+    line-height: 24px;
+}
+
+.menu-left,
+.menu-right {
+    display: flex;
+}
+
+.menu-left a:first-child {
+    margin-left: 0;
+}
+
+.menu-right a:last-child {
+    margin-right: 0;
+}
+
+.brand {
+    font-size: 3.5vw;
+    font-weight: 400;
+    font-family: "Playball";
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-left: 2em;
+    text-align: center;
+}
+
+#hero {
+    text-align: center;
+    padding: 5vw;
+}
+
+#hero h1 {
+    font-size: 9vw;
+    margin-bottom: 1em;
+    font-weight: 300;
+    font-family: "Lexend Exa";
+}
+
+#hero img {
+    width: 90vw;
+    height: 60vh;
+}
+
+h2 {
+    font-family: "Lexend Exa";
+    font-size: 2em;
+    font-weight: 300;
+    margin-left: 5vw;
+}
+
+.project {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1vh;
+}
+
+.main-project {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vh;
+    width: 90vw;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 2.5vw 0 rgba(242, 107, 3, 0.4);
+}
+
+.project h3 {
+    margin: 0.5vh 0 0.3vh;
+    font-family: "Lexend Exa";
+    font-size: 1.25rem;
+    line-height: 2.5vh;
+    font-weight: 300;
+}
+
+.project p {
+    font-family: "Newsreader";
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 300;
+    color: #000000;
+}
+
+.project button {
+    display: block;
+    margin: 2vh auto;
+    padding: 1vh 2vw;
+    border: none;
+    border-radius: 0.3em;
+    background-color: #AD7C00;
+    color: white;
+    cursor: pointer;
+    font-family: "Lexend Exa";
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
+.project button:hover {
+    background-color: #8b6300;
+    transform: scale(1.05);
+}
+
+.contacts {
+    text-align: left;
+    width: 75%;
+    padding: 5vh 2vw;
+    margin: 0 auto;
+}
+
+.contacts h2 {
+    font-family: "Lexend Exa";
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 300;
+    margin: 0 0 2vh;
+}
+
+.contacts p {
+    font-family: "Newsreader";
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2vh;
+    color: #333;
+}
+
+.contact {
+    text-align: center;
+    padding: 10vh 2vw;
+    margin-bottom: 10vh;
+}
+
+.contact h2 {
+    font-family: "Lexend Exa";
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 300;
+    margin-left: 0.1vw;
+}
+
+.contact form {
+    display: inline-block;
+}
+
+.contact input {
+    width: 5vw;
+    height: 5vh;
+    margin: 1.5vh 0.5vw;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 0.125em solid #00000029;
+    border-radius: 0.3em;
+    background-color: #FFFFFF;
+    color: #00000029;
+}
+
+.contact button {
+    display: block;
+    margin: 1vh auto;
+    padding: 1vh 10vw;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #AD7C00;
+    color: white;
+    font-size: 0.93rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+    font-family: "Lexend Exa";
+}
+
+.contact h4 {
+    font-family: "Lexend Exa";
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    color: #AD7C00;
+}
+
+.contact button:hover {
+    background-color: #8b6300;
+    transform: scale(1.05);
+}
+
+footer {
+    padding: 2vh;
+    font-size: 0.875rem;
+    color: #666;
+    font-family: "Lexend Exa";
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer button {
+    padding: 1vh 4vw;
+    border-radius: 0.5em;
+    font-family: "Lexend Exa";
+    border: 0.125em solid #00000029;
+    background-color: #ffffff;
+}
+
+.footer button:hover {
+    background-color: #8b6300;
+    color: #ffffff;
+    transform: scale(1.05);
+}
